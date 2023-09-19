@@ -3,7 +3,8 @@ letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 def unique_english_letters(input_word):
     count = 0
     for let in letters:
-        pass
+        if input_word.find(let) !=-1:
+            count +=1
 
             
 # Uncomment these function calls to test your function:
