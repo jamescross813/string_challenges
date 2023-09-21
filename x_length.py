@@ -2,7 +2,9 @@
 def x_length_words(string, num):
     string_array = string.split()
     for word in string_array:
-        pass
+        if len(word)<num:
+            return False
+    
 
 # Uncomment these function calls to test your tip function:
 print(x_length_words("i like apples", 2))
