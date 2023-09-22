@@ -1,8 +1,12 @@
 # Write your every_other_letter function here:
 def every_other_letter(sentence):
-    pass
+    count = 0
+    new_str=""
+    while count < len(sentence):
+        
+    return new_str
 # Uncomment these function calls to test your function:
-#print(every_other_letter("Codecademy"))
+# print(every_other_letter("Codecademy"))
 # should print Cdcdm
 #print(every_other_letter("Hello world!"))
 # should print Hlowrd
