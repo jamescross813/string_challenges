@@ -1,5 +1,5 @@
 # Write your every_other_letter function here:
-def every_other_letter():
+def every_other_letter(sentence):
     pass
 # Uncomment these function calls to test your function:
 #print(every_other_letter("Codecademy"))
