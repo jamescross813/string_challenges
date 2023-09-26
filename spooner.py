@@ -1,5 +1,5 @@
 # Write your make_spoonerism function here:
-def make_spoonerism():
+def make_spoonerism(word1, word2):
     pass
 # Uncomment these function calls to test your function:
 #print(make_spoonerism("Codecademy", "Learn"))
