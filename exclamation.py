@@ -1,12 +1,11 @@
 # Write your add_exclamation function here:
 def add_exclamation(string):
     i=0
-    phrase = string
     while i <= 20:
         if i>len(string):
-            phrase = phrase +"!"
+            string = string +"!"
         i+=1
-    return phrase
+    return string
 # Uncomment these function calls to test your function:
 print(add_exclamation("Codecademy"))
 # should print Codecademy!!!!!!!!!!
