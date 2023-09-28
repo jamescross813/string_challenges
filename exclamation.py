@@ -1,5 +1,6 @@
 # Write your add_exclamation function here:
-
+def add_exclamation(string):
+    pass
 # Uncomment these function calls to test your function:
 #print(add_exclamation("Codecademy"))
 # should print Codecademy!!!!!!!!!!
